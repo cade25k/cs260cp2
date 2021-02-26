@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8'/>
+  <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  <link rel="stylesheet" href="styles.css"/>
+  <link href='https://fonts.googleapis.com/css?family=Sura' rel='stylesheet'>
+  <title>Currency Conversion</title>
+</head>
+
+<body>
+  <div class='page'>
+    <div class = 'header section'>Currency Conversion</div>
+
+    <div class="section">
+      <form class="pure-form>" <fieldset>
+        <legend class="legend">Pick two currencies and an amount</legend>
+        <br>
+        <div class="input_section">
+          <p>Currency #1</p>
+          <select id="selector1">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="JPY">JPY</option>
+            <option value="RUB">RUB</option>
+            <option value="CAD">CAD</option>
+            <option value="GBP">GBP</option>
+            <option value="CNY">CNY</option>
+            <option value="INR">INR</option>
+            <option value="AUD">AUD</option>
+          </select>
+          <p></p>
+        </div>
+        <div class="input_section">
+          <p>Currency #2</p>
+          <select id="selector2">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="JPY">JPY</option>
+            <option value="RUB">RUB</option>
+            <option value="CAD">CAD</option>
+            <option value="GBP">GBP</option>
+            <option value="CNY">CNY</option>
+            <option value="INR">INR</option>
+            <option value="AUD">AUD</option>
+          </select>
+          <p></p>
+        </div>
+        <div class="input_section">
+          <p>Year</p>
+          <input placeholder="Amount" id="amount">
+          <p></p>
+        </div>
+        <div class="input_section">
+          <button id="enter" class="pure-button pure-button-primary" >Enter</button>
+        </div>
+        </fieldset>
+      </form>
+    </div>
+
+    <div class="section result">
+      <p id="result"></p>
+    </div>
+    <script text="type/javascript" src="script.js"></script>
+
+  </div>
+  <div class="footer section">
+    <a class="footer-text" href="https://github.com/cade25k/cs260CP1">GitHub Repository</a>
+  </div>
+</body>
+
+</html>
